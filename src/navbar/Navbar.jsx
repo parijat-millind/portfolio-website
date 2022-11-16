@@ -1,0 +1,30 @@
+import React from 'react'
+import './Navbar.css'
+const Navbar = () => {
+  return (
+    <div className="front">
+        <div className="left">
+            <div className="name">
+                Parijat
+            </div>
+        
+        </div>
+        <div className="right">
+            <div className="list">
+                <ul style={{listStyleType:'none'}}>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Experience</li>
+                    <li>Portfolio</li>
+                    <li>Testimonials</li>
+                </ul>
+            </div>
+            <button className="button navbar-button">
+                Contact us
+            </button>
+        </div>
+    </div>
+  )
+}
+
+export default Navbar
